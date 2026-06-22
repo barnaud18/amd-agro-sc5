@@ -159,7 +159,7 @@ export default function Home() {
           <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(1.4rem,3vw,2rem)", marginBottom: ".5rem", color: "#3E2723" }}>O que muda no solo com SC5</h2>
           <p style={{ color: "#666", marginBottom: "3rem" }}>Ensaio de campo — Soja, Sorriso/MT, Safra 2024/25</p>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 60px 1fr", gap: "1rem", alignItems: "stretch", maxWidth: 700, margin: "0 auto" }}>
+          <div data-compare-grid="" style={{ display: "grid", gridTemplateColumns: "1fr 60px 1fr", gap: "1rem", alignItems: "stretch", maxWidth: 700, margin: "0 auto" }}>
             <div style={{ borderRadius: 18, padding: "2rem 1.5rem", background: "#fff", border: "2px dashed #BDBDBD", textAlign: "center" as const }}>
               <h3 style={{ fontSize: ".8rem", textTransform: "uppercase" as const, letterSpacing: ".08em", marginBottom: "1.2rem", color: "#999" }}>Sem SC5</h3>
               {[["P disponível", "12 mg/dm³"], ["Absorção de P", "35%"], ["Podridão radicular", "18%"], ["Prof. raiz", "22 cm"], ["Produtividade", "58 sc/ha"], ["Custo/ha", "R$ 2.850"]].map(([l, v]) => (
